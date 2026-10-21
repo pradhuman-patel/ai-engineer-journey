@@ -1,4 +1,5 @@
 def two_sums(nums: list[int], target: int) -> list[int]:
+    """Return the indexes of the two numbers that add up to target."""
     seen = {}
     for i, num in enumerate(nums):
         complement = target - num
