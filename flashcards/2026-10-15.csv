@@ -1,0 +1,11 @@
+front,back
+"nums[1::3] on [5,10,15,20,25,30,35]?","[10, 25] — indexes 1, 4 (next = current + step)"
+"What does self refer to?","The specific object (instance), not the class"
+"Why keep a test set?","Honest estimate on unseen data; exposes overfitting"
+"Time/space of building a set from n items?","O(n) time, O(n) space"
+"Contains Duplicate: best approach?","Hash set, return True on first repeat. O(n) time, O(n) space"
+"Brute force for Contains Duplicate?","Nested loops comparing pairs: O(n^2) time, O(1) space"
+"Commit vs push?","Commit = local save point. Push = upload commits to GitHub"
+"Which SSH key goes to GitHub?","id_ed25519.pub (public). Never share id_ed25519 (private)"
+"What is .gitignore?","List of files Git never tracks: .venv, __pycache__, .env secrets"
+"What does grounded mean?","Every claim in the answer is supported by retrieved sources"
